@@ -14,7 +14,7 @@ This is to create a table of contents to provide ease of navigation.
 ![Demonstration1](https://github.com/TravisH0301/auto_generate_header_anchor/blob/main/demonstration_1.gif)
 
 ### Using created markdown anchors on markdown
-![Demonstration2](https://github.com/TravisH0301/auto_generate_header_anchor/blob/main/demonstration_1.gif)
+![Demonstration2](https://github.com/TravisH0301/auto_generate_header_anchor/blob/main/demonstration_2.gif)
 
 ## How to Use
 - Run Python script
