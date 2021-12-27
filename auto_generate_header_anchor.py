@@ -100,7 +100,6 @@ def print_anchors(anchors):
     for anchor in anchors:
         print(anchor)
 
-
 def main():
     # create BeautifulSoup object of the Github readme markdown HTML
     url = input('Please type URL for Github ReadMe markdown: ')
@@ -115,5 +114,6 @@ def main():
     # print markdown anchors
     print_anchors(anchors)
 
+    
 if __name__ == "__main__":
     main()
