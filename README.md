@@ -10,7 +10,7 @@ This is to create a table of contents to provide ease of navigation.
 - Markdown anchors are created and displayed as an output
 
 ## Demonstration
-![Demonstration](https://github.com/TravisH0301/auto_generate_header_anchor/blob/main/example.gif)
+![Demonstration](https://github.com/TravisH0301/auto_generate_header_anchor/blob/main/demonstration_1.gif)
 
 ## How to Use
 - Run Python script
