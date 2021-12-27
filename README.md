@@ -1,11 +1,11 @@
 # Auto Generate Header Anchor
 
 ## Purpose
-This script is to parse Github ReadMe markdowns to automatically generate markdown anchors for the headers.
+This script is to parse Github README markdowns to automatically generate markdown anchors for the headers.
 This is to create a table of contents to provide ease of navigation.
 
 ## Workflow
-- URL link to a Github ReadMe markdown is provided to the script
+- URL link to a Github README markdown is provided to the script
 - HTML content of the page is retrieved and parsed to obtain header information
 - Markdown anchors are created and displayed as an output
 
@@ -18,7 +18,7 @@ This is to create a table of contents to provide ease of navigation.
 
 ## How to Use
 - Run Python script
-- Copy and paste a Github ReadMe markdown into the prompted text box
+- Copy and paste a Github README markdown into the prompted text box
 
 ## Dependencies
 - Python (==3.7)
