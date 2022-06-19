@@ -46,7 +46,7 @@ def find_header(soup):
     
     return(headers_order)
 
-def make_anchor(headers_order):
+def make_anchor(soup, headers_order):
     """
     This function creates markdown anchors for the determined headers.
     This firstly identifies headers again based on the header size and 
@@ -55,6 +55,7 @@ def make_anchor(headers_order):
     The ordered anchors are returned.
 
     Input:
+    - soup: BeautifulSoup object 
     - headers_order: list of headers in a first-come, first-served order
     """
     size_prefix_dict = dict({'h2':'-', 'h3':'  -', 'h4':'    -'})
@@ -109,7 +110,7 @@ def main():
     headers_order = find_header(soup)
 
     # create markdown anchors for the headers
-    anchors = make_anchor(headers_order)
+    anchors = make_anchor(soup, headers_order)
 
     # print markdown anchors
     print_anchors(anchors)
