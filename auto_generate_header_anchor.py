@@ -76,9 +76,9 @@ def make_anchor(soup, headers_order):
     for size, header_li in size_header_dict.items():
         for header in header_li:
             title = header.text
-            href = title.lower().replace(' ', '-')
+            href = f"#{title.lower().replace(' ', '-')}"
             prefix = size_prefix_dict[size]
-            anchor = f'{prefix} [{title}](#{href})'
+            anchor = f'{prefix} [{title}]({href})'
             order = headers_order.index(href)
 
             anchors.append(anchor)
